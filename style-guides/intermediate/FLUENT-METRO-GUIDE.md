@@ -1,4 +1,5 @@
 # Fluent Design / Metro Style Guide
+
 ## Microsoft's Typography-First UI Language
 
 **Difficulty:** ⭐⭐ Medium  
@@ -12,6 +13,7 @@
 Fluent Design (originally "Metro") is Microsoft's design language that emerged with Windows Phone 7 (2010) and evolved through Windows 8/10/11. It's a typography-first, content-focused UI system emphasizing large bold type, flat colors, and information density. Think of it as Swiss Design principles applied to digital interfaces with Microsoft's utilitarian aesthetic.
 
 **Core Philosophy:**
+
 - Content before chrome (information over decoration)
 - Typography as primary design element
 - Authentically digital (no skeuomorphism)
@@ -20,6 +22,7 @@ Fluent Design (originally "Metro") is Microsoft's design language that emerged w
 - Information density (fit more on screen)
 
 **Names over time:**
+
 - **Metro** (2010-2012) — Windows Phone 7/8
 - **Modern UI** (2012-2017) — Windows 8/10
 - **Fluent Design** (2017-present) — Windows 10/11, Microsoft 365
@@ -31,12 +34,14 @@ Fluent Design (originally "Metro") is Microsoft's design language that emerged w
 ## 📚 Historical Context
 
 **Origins:**
+
 - **2010:** Windows Phone 7 launched with Metro design language
 - **Inspiration:** Wayfinding systems (airport signage, transit maps)
 - **Problem:** Skeuomorphic iOS design felt dishonest to digital medium
 - **Microsoft's bet:** Pure digital, content-first, typography-driven UI
 
 **Key Moments:**
+
 - **2010:** Metro debuts on Windows Phone 7 (revolutionary)
 - **2012:** Windows 8 brings Metro to desktop (controversial)
 - **2013:** Apple iOS 7 copies flat aesthetic (mainstream adoption)
@@ -47,6 +52,7 @@ Fluent Design (originally "Metro") is Microsoft's design language that emerged w
 iOS 6 and earlier used skeuomorphism (fake leather, wood textures). Metro said: "Digital should look digital." Typography and color can organize information better than fake materials.
 
 **Key Influences:**
+
 - **Swiss Design:** Grid systems, typography, hierarchy
 - **Bauhaus:** Form follows function, authentically digital
 - **Wayfinding systems:** Airport signage, transit maps (clear information)
@@ -60,11 +66,13 @@ iOS 6 and earlier used skeuomorphism (fake leather, wood textures). Metro said: 
 ## 👥 Key Practitioners & Examples
 
 **Microsoft Design Team (Metro/Fluent):**
+
 - Albert Shum (design lead, Windows Phone)
 - Microsoft Design team (evolving Fluent language)
 - Influenced by: Massimo Vignelli (signage), Josef Müller-Brockmann (grids)
 
 **Contemporary Examples:**
+
 - Windows 10/11 operating system
 - Microsoft Office 365 / Microsoft 365
 - Xbox UI
@@ -72,6 +80,7 @@ iOS 6 and earlier used skeuomorphism (fake leather, wood textures). Metro said: 
 - Microsoft Teams
 
 **Canonical Metro/Fluent Examples:**
+
 - **Windows Phone 7-8 UI** (2010-2012) — Pure Metro
 - **Windows 8 Start screen** — Live Tiles, bold typography
 - **Windows 10 UI** — Refined Metro
@@ -86,12 +95,14 @@ iOS 6 and earlier used skeuomorphism (fake leather, wood textures). Metro said: 
 ### Typography (The Star)
 
 **Typeface:**
+
 - **Segoe UI** — Microsoft's humanist sans-serif (primary)
 - **Segoe UI Variable** (Windows 11) — modern evolution
 - **Characteristics:** Clean, readable, slightly wide proportions
 
 **Type Scale (Large, Bold):**
-```
+
+``` markdown
 Hero text: 72-96px (dramatically large)
 H1: 48-56px (page titles)
 H2: 36-42px (section headers)
@@ -101,6 +112,7 @@ Small: 12px (metadata, captions)
 ```
 
 **Key Principles:**
+
 - **Dramatically large headings:** Hero text dominates
 - **Bold weight common:** Segoe UI Semibold or Bold
 - **Left-aligned:** Strong flush-left alignment
@@ -114,7 +126,8 @@ Metro/Fluent uses SIZE as primary hierarchy tool (not color or decoration).
 ### Color Palette (Bold & Systematic)
 
 **Original Metro Colors (Windows Phone):**
-```
+
+``` markdown
 Lime: #A4C400
 Magenta: #D80073
 Teal: #00ABA9
@@ -126,7 +139,8 @@ Purple: #AA00FF
 
 **Fluent Evolution (Windows 11):**
 Softer, pastel-influenced:
-```
+
+``` markdown
 Blue: #0078D4 (primary)
 Teal: #00B7C3
 Purple: #8764B8
@@ -135,6 +149,7 @@ Orange: #FF8C00
 ```
 
 **Usage:**
+
 - **Background colors:** Full blocks of color (tiles, cards)
 - **High contrast:** White text on colored backgrounds
 - **Accent color:** User-selectable primary color
@@ -146,13 +161,15 @@ Flat colors only. Fluent added subtle gradients/transparency.
 ### Layout & Grid
 
 **Tile-Based Layout (Metro Signature):**
+
 - **Live Tiles:** Square and rectangular tiles (Windows 8 Start screen)
 - **Grid system:** Strict alignment to baseline grid
 - **Asymmetric:** Tiles of different sizes create visual interest
 - **Scrolling:** Horizontal scroll (panorama) or vertical
 
 **Spacing:**
-```
+
+``` markdown
 Tile padding: 16-24px internal
 Tile gaps: 8-12px between tiles
 Margins: 24-32px from edges
@@ -160,6 +177,7 @@ Section spacing: 48-64px
 ```
 
 **Fluent Grid (Contemporary):**
+
 - Responsive grid (12-column base)
 - Card-based layouts (tiles evolved into cards)
 - Sidebar navigation + content area
@@ -168,6 +186,7 @@ Section spacing: 48-64px
 ### UI Elements (Distinctive)
 
 **Buttons:**
+
 - **Metro:** Flat, rectangular, bold text, colored background
 - **Fluent:** Subtle shadow/border, rounded corners (4-8px)
 - **Primary:** Accent color background, white text
@@ -175,18 +194,21 @@ Section spacing: 48-64px
 - **Hover:** Slight color shift or subtle shadow
 
 **Cards/Tiles:**
+
 - **Metro:** Sharp corners, solid colors
 - **Fluent:** Subtle shadow (acrylic effect), 4-8px border-radius
 - **Content:** Title, metadata, icon, preview image
 - **Padding:** Generous (16-24px)
 
 **Navigation:**
+
 - **Hub pattern:** Horizontal sections (panorama view)
 - **Hamburger menu:** Collapsed sidebar (desktop)
 - **Command bar:** Bottom or top bar with actions
 - **Back button:** Prominent (top-left on mobile)
 
 **Icons:**
+
 - **Style:** Outline style (2-3px stroke) or solid fill
 - **Segoe MDL2 Assets:** Microsoft's icon font
 - **Size:** 16px, 20px, 24px, 32px (even numbers)
@@ -195,6 +217,7 @@ Section spacing: 48-64px
 ### Motion & Interaction (Fluent)
 
 **Animations:**
+
 - **Fast:** 200-300ms transitions (not sluggish)
 - **Easing:** Ease-out (starts fast, slows down)
 - **Reveal:** Content slides in from edge
@@ -202,6 +225,7 @@ Section spacing: 48-64px
 - **Parallax:** Background moves slower than foreground
 
 **Acrylic Material (Fluent):**
+
 - Translucent background (frosted glass effect)
 - Subtle blur and noise texture
 - Used for sidebars, panels, context menus
@@ -212,6 +236,7 @@ Section spacing: 48-64px
 Metro/Fluent packs more information than iOS/Material Design.
 
 **Techniques:**
+
 - Smaller body text (14-16px vs. 18-21px in humanist design)
 - Tighter spacing (efficient use of space)
 - Collapsible sections (progressive disclosure)
@@ -222,6 +247,7 @@ Metro/Fluent packs more information than iOS/Material Design.
 ## 🔍 Where to Find Authoritative Examples
 
 ### Live Examples
+
 - **Windows 10/11** — Operating system (Start menu, Settings)
 - **Microsoft Office 365** — Word, Excel, PowerPoint online
 - **Microsoft Teams** — Collaboration software
@@ -229,17 +255,20 @@ Metro/Fluent packs more information than iOS/Material Design.
 - **Xbox dashboard** — Gaming UI
 
 ### Design Resources
+
 - **Fluent UI** — developer.microsoft.com/en-us/fluentui
 - **Microsoft Design** — microsoft.com/design
 - **Fluent Design System** — Official guidelines
 - **Windows 11 design principles** — Updated Fluent
 
 ### Historical Documentation
+
 - **Windows Phone 7-8 design guidelines** (archived)
 - **Windows 8 design language** (Metro documentation)
 - **Build conference videos** (Microsoft design talks)
 
 ### Books & Articles
+
 - **"Metro design language" documentation** (Microsoft, 2010-2012)
 - Articles analyzing Windows Phone design (Smashing Magazine, A List Apart)
 
@@ -248,7 +277,8 @@ Metro/Fluent packs more information than iOS/Material Design.
 ## 🎨 Design Prompt Templates for AI
 
 ### Initial Transformation
-```
+
+``` markdown
 Transform this Swiss design site into Fluent Design / Metro style:
 
 Reference Windows 10 UI, Microsoft Teams, and Azure portal aesthetic.
@@ -268,7 +298,8 @@ Make it feel professional, utilitarian, and authentically digital—Microsoft ae
 ```
 
 ### Typography Implementation
-```
+
+``` markdown
 Implement Metro/Fluent typography hierarchy:
 
 Requirements:
@@ -289,8 +320,9 @@ Screenshot: [paste image]
 Does typography dominate the design as in authentic Metro?
 ```
 
-### Layout & Grid
-```
+### Layout & Grid - Templates
+
+``` markdown
 Create Metro/Fluent tile or card-based layout:
 
 Requirements:
@@ -306,7 +338,8 @@ Reference Windows 10 Start menu or Azure portal dashboard.
 ```
 
 ### Color Implementation
-```
+
+``` markdown
 Apply Metro/Fluent color system:
 
 Color options:
@@ -330,7 +363,8 @@ Does color create bold, clear visual organization?
 ```
 
 ### Authenticity Check
-```
+
+``` markdown
 Act as Albert Shum (Windows Phone design lead). Critique this Metro/Fluent design:
 
 Questions:
@@ -353,6 +387,7 @@ Does this feel like authentic Microsoft design language?
 ## ❌ Common Mistakes to Avoid
 
 ### Typography Mistakes
+
 - **Timid headings:** Not making hero text dramatically large (72-96px)
 - **All caps:** Use sentence case instead (more readable)
 - **Centered text:** Metro is flush-left aligned
@@ -360,24 +395,28 @@ Does this feel like authentic Microsoft design language?
 - **Tight letter-spacing:** Large text needs generous spacing
 
 ### Color Mistakes
+
 - **Too many colors:** Limit to 1-2 accent colors
 - **Gradients:** Pure Metro is flat (Fluent has subtle gradients only)
 - **Low contrast:** White text on light colors (use bold colors)
 - **Muddy colors:** Use pure, saturated Metro colors
 
 ### Layout Mistakes
+
 - **No grid:** Tiles floating randomly (strict alignment required)
 - **Uniform tiles:** All same size (use varied proportions for interest)
 - **Too sparse:** Wasting space (Metro is information-dense)
 - **Skeuomorphism:** Adding textures, fake materials (authentically digital)
 
 ### UI Mistakes
+
 - **Heavy shadows:** Subtle only (Fluent) or none (Metro)
 - **Rounded corners too large:** 4-8px max (not 16px+)
 - **Slow animations:** Under 300ms (fast and fluid)
 - **Decorative elements:** Function over decoration
 
 ### Information Density Mistakes
+
 - **Too sparse:** Wasting screen space (Metro fits more content)
 - **Too cluttered:** Overwhelming user (balance required)
 - **Inconsistent spacing:** Random gaps between elements
@@ -387,6 +426,7 @@ Does this feel like authentic Microsoft design language?
 ## ✅ Fluent/Metro Authenticity Checklist
 
 ### Typography Excellence
+
 - [ ] Segoe UI or clean sans-serif (Inter, Roboto)
 - [ ] Hero text 72-96px (dramatically large)
 - [ ] H1 48-56px, h2 36-42px (clear hierarchy)
@@ -396,13 +436,15 @@ Does this feel like authentic Microsoft design language?
 - [ ] Generous letter-spacing for large text
 
 ### Color System
+
 - [ ] Microsoft Blue (#0078D7) or bold Metro colors
 - [ ] Flat colors (no gradients in pure Metro)
 - [ ] High contrast (white on color, black on white)
 - [ ] Accent color consistent throughout
 - [ ] Neutral backgrounds (white/light gray)
 
-### Layout & Grid
+### Layout & Grid - Checklist
+
 - [ ] Tile or card-based layout
 - [ ] Grid alignment strict (12-column base)
 - [ ] Asymmetric proportions (varied tile sizes)
@@ -410,6 +452,7 @@ Does this feel like authentic Microsoft design language?
 - [ ] Responsive (tiles reflow on mobile)
 
 ### UI Elements
+
 - [ ] Rounded corners 4-8px (Fluent) or sharp (Metro)
 - [ ] Subtle shadows or flat (0 2px 8px rgba(0,0,0,0.1) max)
 - [ ] Outline icons (2-3px stroke) or solid
@@ -417,17 +460,20 @@ Does this feel like authentic Microsoft design language?
 - [ ] Generous padding (16-24px)
 
 ### Motion & Interaction
+
 - [ ] Fast animations (200-300ms)
 - [ ] Ease-out timing (natural deceleration)
 - [ ] Subtle hover states (lift or color shift)
 - [ ] Smooth transitions
 
-### Information Density
+### Information Density - Checklist
+
 - [ ] Efficient use of space (not wasteful)
 - [ ] More content visible (vs. iOS/Material)
 - [ ] Scrolling content (horizontal or vertical)
 
 ### Authentically Digital
+
 - [ ] No skeuomorphism (fake materials)
 - [ ] Content before chrome (function over decoration)
 - [ ] Professional and utilitarian (business software feel)
@@ -480,7 +526,8 @@ Don't be timid. Hero text should be 72-96px—dominate the screen.
 Microsoft's typeface is core to the aesthetic. Inter or Roboto are acceptable substitutes.
 
 **Bold Metro Colors:**
-#0078D7 (Microsoft Blue), #D80073 (Magenta), #00ABA9 (Teal). Pure, saturated.
+
+## 0078D7 (Microsoft Blue), #D80073 (Magenta), #00ABA9 (Teal). Pure, saturated
 
 **Tile-Based Layout:**
 Varied tile sizes (1x1, 2x1, 1x2) create visual interest while maintaining grid alignment.

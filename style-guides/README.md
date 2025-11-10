@@ -1,4 +1,5 @@
 # Style Guides Directory
+
 ## 15 Complete Design Style References
 
 **✅ ALL 15 GUIDES COMPLETE** — 300+ pages of design documentation
@@ -10,12 +11,14 @@ Organized by difficulty to help you choose the right challenge.
 ## � Browse by Difficulty
 
 ### [⭐ Beginner](beginner/) — 2 Styles
+
 Clear rules, forgiving, great first choice.
 
 - **[Flat Design](beginner/FLAT-DESIGN-GUIDE.md)** — iOS 7 aesthetic, bright colors, clean UI
 - **[Neo-Swiss](beginner/NEO-SWISS-GUIDE.md)** — Modern responsive grids (Stripe.com style)
 
 ### [⭐⭐ Intermediate](intermediate/) — 6 Styles
+
 Requires attention to typography, spacing, hierarchy.
 
 - **[Neo-Brutalism](intermediate/NEO-BRUTALISM-GUIDE.md)** — Raw, anti-corporate web design
@@ -26,6 +29,7 @@ Requires attention to typography, spacing, hierarchy.
 - **[Corporate Modernism](intermediate/CORPORATE-MODERNISM-GUIDE.md)** — Systematic brand identity (Paul Rand, Vignelli)
 
 ### [⭐⭐⭐ Advanced](advanced/) — 7 Styles
+
 Complex systems, historical depth, rigorous methodology.
 
 - **[Material Design](advanced/MATERIAL-DESIGN-GUIDE.md)** — Google's elevation and motion system
@@ -41,23 +45,27 @@ Complex systems, historical depth, rigorous methodology.
 ## 🎨 Browse by Design Lineage
 
 ### Reactions Against Swiss Design
+
 - [Neo-Brutalism](intermediate/NEO-BRUTALISM-GUIDE.md) ⭐⭐ — Honest rawness vs. Swiss polish
 - [Swiss Punk / New Wave](advanced/SWISS-PUNK-GUIDE.md) ⭐⭐⭐ — Weingart's kinetic rebellion
 - [Deconstructivist / Grunge](advanced/DECONSTRUCTIVIST-GRUNGE-GUIDE.md) ⭐⭐⭐ — Carson's emotional chaos
 
 ### Humanized Descendants
+
 - [Nordic Minimalism](intermediate/NORDIC-MINIMALISM-GUIDE.md) ⭐⭐ — Scandinavian warmth
 - [Humanist Modernism](intermediate/HUMANIST-MODERNISM-GUIDE.md) ⭐⭐ — Frutiger's readable design
 - [Editorial Swiss](intermediate/EDITORIAL-SWISS-GUIDE.md) ⭐⭐ — Content-first hierarchy
 - [ISOTYPE](advanced/ISOTYPE-GUIDE.md) ⭐⭐⭐ — Universal pictogram language
 
 ### Digital Evolutions
+
 - [Flat Design](beginner/FLAT-DESIGN-GUIDE.md) ⭐ — iOS 7 minimalism
 - [Neo-Swiss](beginner/NEO-SWISS-GUIDE.md) ⭐ — Responsive web grids
 - [Fluent Design / Metro](intermediate/FLUENT-METRO-GUIDE.md) ⭐⭐ — Windows typography-first
 - [Material Design](advanced/MATERIAL-DESIGN-GUIDE.md) ⭐⭐⭐ — Google's motion system
 
 ### Systemic Descendants
+
 - [Corporate Modernism](intermediate/CORPORATE-MODERNISM-GUIDE.md) ⭐⭐ — Rand & Vignelli brand systems
 - [Vignelli Transit](advanced/VIGNELLI-TRANSIT-GUIDE.md) ⭐⭐⭐ — Civic wayfinding design
 - [Ulm School](advanced/ULM-SCHOOL-GUIDE.md) ⭐⭐⭐ — Aicher's scientific rationalism
@@ -105,15 +113,18 @@ Every comprehensive style guide (15-25 pages each) contains:
 ## 💡 Getting Started
 
 **New to Design?** Start with:
+
 - Flat Design (⭐ Accessible) — Clean, simple, UI-focused
 - Neo-Swiss (⭐ Accessible) — Contemporary responsive grids
 
 **Some Design Experience?** Try:
+
 - Nordic Minimalism (⭐⭐) — Calm, spacious, natural
 - Humanist Modernism (⭐⭐) — Warm, readable, human-centered
 - Editorial Swiss (⭐⭐) — Long-form typography
 
 **Advanced Designer?** Challenge yourself:
+
 - Material Design (⭐⭐⭐) — Complex motion and elevation system
 - Swiss Punk (⭐⭐⭐) — Controlled chaos and kinetic energy
 - Ulm School (⭐⭐⭐) — Scientific rationalism and semiotics
