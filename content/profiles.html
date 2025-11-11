@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Designer Profiles</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #8b0000;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+      font-family: Impact, sans-serif;
+      font-size: 2.5em;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border-bottom: 4px solid #ffcc00;
+    }
+
+    .section {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section h2 {
+      font-family: Impact, sans-serif;
+      color: #ffcc00;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #8b0000;
+      padding-bottom: 5px;
+      letter-spacing: 0.05em;
+      font-kerning: normal;
+      font-weight: 400;
+    }
+
+    .profile {
+      display: block;
+      overflow: hidden;
+      gap: 20px;
+      margin-bottom: 40px;
+      align-items: flex-start;
+    }
+
+    .profile {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 30px;
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: #1a1a1a;
+        border: 2px solid #8b0000;
+        box-shadow: 4px 4px #000;
+        flex-wrap: nowrap;
+    }
+
+
+    .profile img {
+        width: 160px;
+        height: auto;
+        border: 3px solid #ffcc00;
+        box-shadow: 4px 4px #222;
+        flex-shrink: 0;
+    }
+
+    .profile-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .profile-content h3 {
+      font-family: Impact, sans-serif;
+      font-size: 1.2em;
+      color: #ff4444;
+      margin: 0 0 10px;
+      letter-spacing: 0.05em;
+      font-kerning: normal;
+      font-weight: 400;
+    }
+
+    .profile-content p {
+      font-size: 0.95em;
+      line-height: 1.5;
+      margin: 0 0 10px;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8em;
+      border-top: 4px solid #8b0000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎨 Designer Profiles</header>
+
+  <div class="section">
+    <h2>Key Practitioners</h2>
+
+    <div class="profile">
+      <img src="images/josef-muller-brockmann.jpg" alt="Josef Müller-Brockmann" />
+      <div class="profile-content">
+        <h3>Josef Müller-Brockmann</h3>
+        <p>Swiss graphic designer and pioneer of the International Typographic Style. His grid-based layouts and typographic clarity laid the foundation for Metro’s structure.</p>
+        <p><strong>Notable Work:</strong> “Musica Viva” poster series</p>
+      </div>
+    </div>
+
+    <div class="profile">
+      <img src="images/massimo-vignelli.jpg" alt="Massimo Vignelli" />
+      <div class="profile-content">
+        <h3>Massimo Vignelli</h3>
+        <p>Designer of the Milan Metro and co-creator of the Washington Metro signage system. Advocated for timeless, modular design that influenced Microsoft’s use of typography as navigation.</p>
+        <p><strong>Notable Work:</strong> NYC Subway Map, Washington Metro signage</p>
+      </div>
+    </div>
+
+    <div class="profile">
+      <img src="images/harry-weese.jpg" alt="Harry Weese" />
+      <div class="profile-content">
+        <h3>Harry Weese</h3>
+        <p>Architect of the Washington Metro’s iconic vaulted stations. His brutalist design emphasized spatial rhythm and civic pride—principles echoed in Metro UI’s structure.</p>
+        <p><strong>Notable Work:</strong> Washington Metro architecture</p>
+      </div>
+    </div>
+
+    <div class="profile">
+      <img src="images/albert-shum.jpg" alt="Albert Shum" />
+      <div class="profile-content">
+        <h3>Albert Shum</h3>
+        <p>Led Microsoft’s Windows Phone design team. Formalized Metro’s principles: content over chrome, motion as meaning, and bold typography.</p>
+        <p><strong>Notable Work:</strong> Zune UI, Windows Phone 7, early Fluent Design</p>
+      </div>
+    </div>
+
+    <div class="profile">
+      <img src="images/nille-sorensen.jpg" alt="Nille Sørensen" />
+      <div class="profile-content">
+        <h3>Nille Sørensen</h3>
+        <p>Designer of Copenhagen’s Cityringen Metro stations. His work emphasized modularity, local materiality, and intuitive flow—core to Metro’s design ethos.</p>
+        <p><strong>Notable Work:</strong> Cityringen Metro (Copenhagen)</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Retro Controllers Co. | Inspired by Metro, Nintendo, and the Designers Who Built Them
+  </footer>
+
+</body>
+</html>
