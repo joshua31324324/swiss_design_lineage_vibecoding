@@ -1,4 +1,5 @@
 # AI Collaboration Playbook
+
 ## How to Vibe Code Like a Pro
 
 **Purpose:** Work effectively with AI to build professional design projects
@@ -20,6 +21,7 @@ AI can't see your website. You provide screenshots, AI writes code.
 ## 📸 Screenshot Workflow
 
 **Take screenshots:**
+
 - After every change
 - Before design reviews
 - Mobile + desktop views
@@ -33,6 +35,7 @@ AI can't see your website. You provide screenshots, AI writes code.
 **Good:** "Screenshot shows my hero vs reference. My typography lacks weight. Heading should be 4rem, bold 800. Match the reference."
 
 **Template:**
+
 1. What you're showing
 2. The problem you see
 3. Specific changes needed
@@ -60,7 +63,8 @@ Ask AI to wear different hats:
 ## ⚡ Essential Prompts
 
 ### Initial Setup
-```
+
+``` markdown
 "I'm transforming this Swiss-style site to [STYLE]. Read the style guide at 
 [path]. Review the reference site. What's our design system? Give me:
 - Color palette (hex codes)
@@ -70,7 +74,8 @@ Ask AI to wear different hats:
 ```
 
 ### Starting Work
-```
+
+``` markdown
 "Let's transform [SECTION]. Here's a reference image showing authentic [STYLE].
 Here's current screenshot. Create [SECTION] matching the style:
 - [Specific characteristic 1]
@@ -79,7 +84,8 @@ Here's current screenshot. Create [SECTION] matching the style:
 ```
 
 ### Reviewing Work
-```
+
+``` markdown
 "Screenshot shows [SECTION]. Compare to reference. Issues I see:
 1. [Problem 1 with specific metrics]
 2. [Problem 2 with specific metrics]
@@ -87,12 +93,14 @@ Fix these and maintain [STYLE] authenticity."
 ```
 
 ### Quality Check
-```
+
+``` markdown
 "Run Lighthouse audit. Fix any issues below 90. Explain each change."
 ```
 
 ### Accessibility Check
-```
+
+``` markdown
 "Review this page for WCAG 2.1 AA compliance. Check:
 - Color contrast ratios
 - Keyboard navigation  
@@ -113,6 +121,7 @@ Fix these and maintain [STYLE] authenticity."
 ### Red Flags to Catch
 
 Stop AI immediately if:
+
 - ❌ Suggests rebuilding from scratch
 - ❌ Ignores your specific instructions
 - ❌ Makes accessibility worse
@@ -127,14 +136,16 @@ Stop AI immediately if:
 ## � Bad vs Good Collaboration
 
 **BAD:**
-```
+
+``` markdown
 Student: "Make the hero look more Flat Design"
 AI: [generic output]
 Student: "Looks good!" ❌
 ```
 
 **GOOD:**
-```
+
+``` markdown
 Student: "Screenshot shows hero. Reference shows:
 - Heading: 4rem, bold 800
 - Background: #3498DB, white text
@@ -150,34 +161,41 @@ Logo 3rem not 4rem." ✅
 
 ---
 
-## �💡 Pro Tips
+## 💡 Pro Tips
 
-**1. Be Hyper-Specific**
+### 1. Be Hyper-Specific
+
 - Not: "bigger font"
 - Yes: "4rem, font-weight 800"
 
-**2. Reference Real Examples**
+### 2. Reference Real Examples
+
 - "Like Stripe hero"
 - "Match this [screenshot]"
 
-**3. Compare Constantly**
+### 3. Compare Constantly
+
 - Your work vs references
 - Before vs after
 
-**4. Iterate Ruthlessly**
+### 4. Iterate Ruthlessly
+
 - First draft = never good enough
 - 2-3 rounds minimum
 
-**5. Use Metrics**
+### 5. Use Metrics
+
 - #3498DB not "blue"
 - 4rem not "bigger"
 - 90+ not "fast enough"
 
-**6. Split Complex Tasks**
+### 6. Split Complex Tasks
+
 - Not: "Build homepage"
 - Yes: "Build hero first"
 
-**7. Document Everything**
+### 7. Document Everything
+
 - Save screenshots
 - Track iterations
 - Note failures
@@ -187,6 +205,7 @@ Logo 3rem not 4rem." ✅
 ## ⚠️ Common Mistakes
 
 **Don't:**
+
 - Accept first output
 - Skip screenshot reviews
 - Use vague descriptions
@@ -194,6 +213,7 @@ Logo 3rem not 4rem." ✅
 - Forget mobile testing
 
 **Do:**
+
 - Iterate 2-3x on everything
 - Provide visual proof
 - Give exact measurements
