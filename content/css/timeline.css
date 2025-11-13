@@ -1,0 +1,123 @@
+:root {
+  --bg: #0d0d0d;
+  --card: #1a1a1a;
+  --accent: #8b0000;
+  --accent-2: #ffcc00;
+  --muted: #cfcfcf;
+  --text: #f2f2f2;
+  --radius: 4px;
+  --elevation: 4px;
+  --transition-fast: 200ms;
+  --transition-smooth: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* Base Typography & Colors */
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Inter, Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: var(--accent);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+  text-transform: none;
+  border-bottom: 4px solid var(--accent-2);
+}
+
+/* Section Layout */
+.section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+/* Section Heading */
+.section h2 {
+  font-family: Impact, sans-serif;
+  color: var(--accent-2);
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 5px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+ 
+.introduction {
+  margin-bottom: 32px;
+  margin: 8px;
+  padding-left: 24px;
+  border: 10px solid var(--accent);
+  box-shadow: none;
+  transform: none;
+  transition: none;
+}
+
+.introduction h3 {
+  font-family: Impact, sans-serif;
+  font-size: 1.2em;
+  color: #ff4444;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.introduction p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  margin: 5px 0 0;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+.card:hover:not(.introduction) {
+  transform: translateY(-4px);
+  box-shadow: 6px 6px #111;
+}
+
+/* Timeline Entries */
+.timeline-entry {
+  margin-bottom: 32px;
+  padding-left: 24px;
+  border-left: 4px solid var(--accent-2);
+}
+
+.timeline-entry h3 {
+  font-family: Impact, sans-serif;
+  font-size: 1.2em;
+  color: #ff4444;
+  margin: 0;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.timeline-entry p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  margin: 5px 0 0;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    font-size: 2rem;
+    padding: 20px;
+  }
+
+  .section {
+    padding: 0 16px;
+  }
+
+  .timeline-entry {
+    padding-left: 16px;
+  }
+}

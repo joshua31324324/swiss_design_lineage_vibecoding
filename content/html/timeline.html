@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About the Style — Metro Retro Playbook</title>
+  <link rel="stylesheet" href="../css/style-explanation.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">Metro Retro Playbook</div>
+    <nav class="nav-links">
+      <a href="timeline.html">Timeline</a>
+      <a href="profiles.html">Profiles</a>
+      <a href="style-explanation.html" class="active">Style Explanation</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
+
+  <main class="container">
+    <section class="section">
+      <h2>What Defines the Style</h2>
+      <p class="lede">Metro Retro is an intentionally hybrid visual language that pairs Microsoft’s Metro principles (content-first, typographic hierarchy, motion with meaning) with the visual punch and editorial rhythms of 1980s–90s game magazines such as Nintendo Power. The result is a modular, fast UI that reads like a game spread: bold headlines, tight product cards, and clear affordances for customization.</p>
+
+      <p>Technically, it favors grid systems, contrast-rich palettes, and typography-driven navigation. Practically, it reads as a curated storefront: vibrant hero tiles for featured controllers, dense but scannable spec blocks, and animated transitions that emphasize function (filters, add-to-cart, preview).</p>
+
+      <p>Historically, this style traces to mid-century Swiss clarity (grids, objective communication) → transit wayfinding and civic architecture (clear paths, repeatable modules) → Microsoft’s Metro (content-over-chrome, motion, standardized tiles) → editorial gaming aesthetics (dramatic type, callouts, energetic color).</p>
+    </section>
+
+    <section class="section">
+      <h2>Core Principles (practical, prescriptive)</h2>
+
+      <div class="principles">
+        <div class="principle">
+          <h3>Authentically Digital</h3>
+          <p>Design for the screen: rely on layout, contrast, and motion rather than faux-3D textures. Use motion to explain changes (panel expands, tile flips, customization preview shifts), never to distract.</p>
+        </div>
+
+        <div class="principle">
+          <h3>Do More with Less</h3>
+          <p>Limit chrome. Prioritize content density where it matters (product specs, price, availability) but keep global chrome minimal (header, filters, cart). Use progressive disclosure for deep specs.</p>
+        </div>
+
+        <div class="principle">
+          <h3>Be Fast and Fluid</h3>
+          <p>Pretend the interface is a hardware controller: responses must feel instantaneous. Micro-interactions should be under 200ms for hover/press feedback and 200–350ms for meaningful transitions.</p>
+        </div>
+
+        <div class="principle">
+          <h3>Typography as UI</h3>
+          <p>Headlines and labels are interaction points. Use weight, size, and tracking to prioritize. Impact (for headlines) is permitted as a display face; pair with a neutral UI face for body copy. Kerning and letter-spacing adjustments should be applied to maintain legibility at large sizes.</p>
+        </div>
+
+        <div class="principle">
+          <h3>Pride in Craftsmanship</h3>
+          <p>Every asset (tile art, product photo, icon) must be optimized and consistent. Establish an assets checklist (sizing, padding, background treatment, shadow rules) so featured tiles always align visually.</p>
+        </div>
+
+        <div class="principle">
+          <h3>Win as One</h3>
+          <p>Conform to platform expectations where appropriate (touch targets, focus outlines, keyboard navigation) so the experience feels native across devices while maintaining the brand voice.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>How Visitors Experience It</h2>
+
+      <div class="examples">
+        <div class="card">
+          <h3 class="accent-heading card-title">Primary experience flows</h3>
+          <p><strong>Browse:</strong> Visitors scan a dense grid of product tiles. Large typographic headings sort categories (Controllers, Plates, Sticks, Limited Runs). Filters animate into view; the selected filter becomes a persistent tile in the toolbar.</p>
+          <p><strong>Inspect:</strong> Selecting a product opens a focused panel with a large artwork tile, specs block, swatches for color/finish, and a live preview area. Motion anchors state changes—swatch flips the art, plate selection re-renders the mockup.</p>
+          <p><strong>Customize:</strong> The customization flow is modal-to-fullscreen on mobile. Each step (button layout, finish, wiring, engraving) uses a combination of large labels and tile-like options; choices push a micro-summary to the right for instant preview.</p>
+          <p><strong>Purchase & Return:</strong> Checkout keeps chrome minimal: clear progress steps, a condensed spec snapshot, and confirmation animations that feel celebratory but short.</p>
+        </div>
+
+        <aside class="card aside-card" aria-labelledby="examples-heading">
+          <h4 id="examples-heading" class="accent-heading">Sensory cues</h4>
+          <ul class="sensory-list">
+            <li>High-contrast CTAs (dark red on near-black) for primary actions</li>
+            <li>Subtle tile elevation via shadow for focus states</li>
+            <li>Bold, condensed headlines for hero areas; neutral body for density</li>
+            <li>Motion durations keyed to meaning: 200ms feedback, 300–350ms transitions</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Practical Implementation Rules</h2>
+
+      <div class="rules">
+        <div class="rule">
+          <strong>Color</strong>
+          <p>Primary palette: dark red (#8b0000), black (#0d0d0d), accent yellow (#ffcc00). Reserve red for primary action and highlight; use accent yellow for callouts and rule lines. Maintain minimum contrast 4.5:1 for body text.</p>
+        </div>
+
+        <div class="rule">
+          <strong>Typography</strong>
+          <p>Display: Impact for H1/H2 (use sparingly). UI / Body: system UI or a neutral sans (Segoe UI, Inter, or Arial fallback). Heading tracking +0.05em, font-kerning: normal, heading weight 400 to avoid overbolding.</p>
+        </div>
+
+        <div class="rule">
+          <strong>Grid & Layout</strong>
+          <p>Base grid: 8px system with a 12-column content grid for wide layout. Tile gutters: 20–24px. Product tiles should maintain internal padding of 16px and a 2px accent border to read as discrete units.</p>
+        </div>
+
+        <div class="rule">
+          <strong>Assets & Photography</strong>
+          <p>Controller imagery: neutral background, consistent angle, shadow-less PNGs for overlays. Provide three sizes for tiles (small 160px, medium 320px, hero 720px) with 2:1 and 1:1 crop variants.</p>
+        </div>
+
+        <div class="rule">
+          <strong>Motion</strong>
+          <p>Use motion to communicate: reveal sequences (200–300ms), navigation shifts (300–350ms). Avoid long elaborate animations; provide a reduced-motion alternative via prefers-reduced-motion CSS.</p>
+        </div>
+
+        <div class="rule">
+          <strong>Accessibility</strong>
+          <p>Keyboard focus must be visible and simple; labels for controls; color contrast must meet WCAG AA for body text; preserve readable font sizes (14px+ body, 18px+ for product headings on mobile).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Examples and Patterns</h2>
+      <div class="card card-small-gap">
+        <h3 class="card-title accent-heading">Hero product header (copy)</h3>
+        <p class="muted-text">"The Rumble Pack — custom shell, pro-grade internals, and a palette inspired by 16-bit box art. Ships in 3–5 business days."</p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title accent-heading">Specification block (copy)</h3>
+        <p class="muted-text"><strong>Dimensions:</strong> 160 × 110 × 45mm · <strong>Weight:</strong> 220g · <strong>Buttons:</strong> Honeywell switches · <strong>Customization:</strong> 6 faceplates, 8 cap styles</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+  © 2025 Retro Controllers Co. — Built with Metro Retro
+</footer>
+</body>
+</html>

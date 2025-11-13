@@ -4,119 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>About the Style — Metro Retro Playbook</title>
-  <style>
-    :root{
-      --bg:#0d0d0d;
-      --card:#1a1a1a;
-      --accent:#8b0000;
-      --accent-2:#ffcc00;
-      --muted:#cfcfcf;
-      --text:#f2f2f2;
-      --gap:20px;
-    }
-
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;background:var(--bg);color:var(--text);font-family:Arial, sans-serif;-webkit-font-smoothing:antialiased}
-    header{
-      background:var(--accent);
-      color:#fff;
-      padding:28px 20px 34px;
-      text-align:center;
-      font-family:Impact, sans-serif;
-      font-size:2.2rem;
-      letter-spacing:.04em;
-      text-transform:uppercase;
-      border-bottom:4px solid var(--accent-2);
-    }
-
-    .container{max-width:1100px;margin:32px auto;padding:0 20px}
-    .lede{margin-bottom:28px;font-size:1.02rem;line-height:1.6;color:var(--muted)}
-    .section{margin-bottom:36px}
-    .section h2{
-      font-family:Impact, sans-serif;
-      color:var(--accent-2);
-      font-size:1.5rem;
-      margin:0 0 14px;
-      padding-bottom:6px;
-      border-bottom:2px solid var(--accent);
-      letter-spacing:.05em;
-      font-weight:400;
-      font-kerning:normal;
-    }
-    .section p{margin:0 0 14px;line-height:1.6;color:var(--text);font-size:0.98rem}
-
-    /* Principles grid */
-    .principles{
-      display:grid;
-      grid-template-columns:repeat(3,1fr);
-      gap:18px;
-      margin-top:12px;
-    }
-    .principle{
-      background:var(--card);
-      border:2px solid var(--accent);
-      padding:16px;
-      box-shadow:4px 4px #000;
-    }
-    .principle h3{
-      font-family:Impact, sans-serif;
-      color:#ff4444;
-      margin:0 0 8px;
-      font-size:1.05rem;
-      letter-spacing:.05em;
-      font-weight:400;
-      font-kerning:normal;
-    }
-    .principle p{margin:0;color:var(--muted);font-size:.94rem}
-
-    /* Examples */
-    .examples{display:grid;grid-template-columns:2fr 1fr;gap:20px}
-    .card{background:var(--card);border:2px solid var(--accent);padding:16px;box-shadow:4px 4px #000}
-    .card-title{margin-top:0;color:var(--accent-2);font-size:1rem}
-    .aside-card{padding:14px}
-
-    /* Replaces inline styles previously on elements */
-    .accent-heading { margin-top: 0; color: #ffcc66; }
-    .muted-text { margin: 0; color: var(--muted); }
-    .card-small-gap { margin-bottom: 12px; }
-
-    .sensory-list{padding-left:18px;color:var(--muted);margin:8px 0 0 0;line-height:1.6}
-
-    /* Rules */
-    .rules{display:grid;grid-template-columns:1fr;gap:12px}
-    .rule{background:linear-gradient(180deg, rgba(255,204,0,0.03), rgba(255,204,0,0.01));border-left:6px solid var(--accent-2);padding:12px 14px}
-    .rule strong{display:block;margin-bottom:8px;color:var(--accent-2)}
-    .rule p{margin:0;color:var(--muted)}
-
-    /* Examples cards */
-    .muted{color:var(--muted)}
-
-    /* Footer */
-    footer{background:#111;padding:20px 10px;text-align:center;color:#bdbdbd;border-top:4px solid var(--accent);font-size:.9rem}
-
-    /* Small utility */
-    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-
-    /* Responsive */
-    @media (max-width:900px){
-      .principles{grid-template-columns:repeat(2,1fr)}
-      .examples{grid-template-columns:1fr}
-      .grid-2 { grid-template-columns: 1fr; }
-    }
-    @media (max-width:560px){
-      header{font-size:1.6rem;padding:22px 12px}
-      .principles{grid-template-columns:1fr}
-    }
-
-    /* Accessibility helpers recommended to include */
-    @media (prefers-reduced-motion: reduce) {
-      * { transition: none !important; animation: none !important; }
-    }
-    :focus { outline: 3px solid var(--accent-2); outline-offset: 2px; }
-  </style>
+  <link rel="stylesheet" href="../css/style-explanation.css" />
+  <link rel="stylesheet" href="../css/components.css" />
 </head>
 <body>
-  <header>Metro Retro Playbook</header>
+  <header class="navbar">
+    <div class="brand">Metro Retro Playbook</div>
+    <nav class="nav-links">
+      <a href="timeline.html">Timeline</a>
+      <a href="profiles.html">Profiles</a>
+      <a href="style-explanation.html" class="active">Style Explanation</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  </header>
+
 
   <main class="container">
     <section class="section">
@@ -225,7 +126,7 @@
     </section>
 
     <section class="section">
-      <h2>Examples and Patterns (copy you can reuse)</h2>
+      <h2>Examples and Patterns</h2>
       <div class="card card-small-gap">
         <h3 class="card-title accent-heading">Hero product header (copy)</h3>
         <p class="muted-text">"The Rumble Pack — custom shell, pro-grade internals, and a palette inspired by 16-bit box art. Ships in 3–5 business days."</p>
@@ -239,6 +140,8 @@
 
   </main>
 
-  <footer>© 2025 Retro Controllers Co. — Metro Retro Playbook</footer>
+  <footer>
+  © 2025 Retro Controllers Co. — Built with Metro Retro
+</footer>
 </body>
 </html>

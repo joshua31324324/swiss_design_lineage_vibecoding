@@ -223,7 +223,7 @@ Define the reusable interface components that drive layout, navigation, and inte
 * Motion: 200ms ease-out on hover/focus
 
 * Focus: visible outline (3px solid #ffcc00)
- 
+
 * Disabled: reduced opacity, no hover effect
 
 ### 🧱 Footer

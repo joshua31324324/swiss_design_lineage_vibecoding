@@ -1,0 +1,123 @@
+:root {
+  --bg: #0d0d0d;
+  --card: #1a1a1a;
+  --accent: #8b0000;
+  --accent-2: #ffcc00;
+  --muted: #cfcfcf;
+  --text: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Typography */
+body {
+  font-family: 'Segoe UI', Inter, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+}
+
+header {
+  font-family: Impact, sans-serif;
+  font-size: 3rem;
+  text-transform: none;
+  letter-spacing: 0.05em;
+  background-color: var(--accent);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 4px solid var(--accent-2);
+}
+
+/* Layout & Spacing */
+.section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+/* Headings */
+.section h2 {
+  font-family: Impact, sans-serif;
+  color: var(--accent-2);
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 5px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.profile-content h3 {
+  font-family: Impact, sans-serif;
+  font-size: 1.2em;
+  color: #ff4444;
+  margin: 0 0 10px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+/* Profile Cards */
+.profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: var(--card);
+  border: 2px solid var(--accent);
+  box-shadow: 4px 4px #000;
+  flex-wrap: nowrap;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid var(--accent-2);
+    box-shadow: 4px 4px #222;
+    flex-shrink: 0;
+    transition: transform 600ms ease-out;
+}
+
+.profile img:hover {
+  transform: scale(2);
+  z-index: 10;
+}
+
+.profile-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-content p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  margin: 0 0 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    font-size: 2rem;
+    padding: 20px;
+  }
+
+  .section {
+    padding: 0 16px;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-content {
+    text-align: left;
+  }
+}
